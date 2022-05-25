@@ -36,6 +36,7 @@ Citation of paper goes here
 | PreQual  | https://github.com/MASILab/PreQual  | Vanderbilt | All pre-processing steps | Python
 | SCT  | https://spinalcordtoolbox.com/   | Polytechnique Montreal | Spinal cord MRI | Python
 | MChepato  | https://github.com/fragrussu/MChepato | Vall d’Hebron Institute of Oncology | Tools for mouse liver dMRI-histology imaging used in (Grussu et al. 2022) | Python, FSL, QuPath, MRItools, DiPy, NiftyReg, and others
+| Tractoflow  | https://doi.org/10.1016/j.neuroimage.2020.116889 | Sherbrooked University | End to end tractography (not small animal specific) | 
 
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
