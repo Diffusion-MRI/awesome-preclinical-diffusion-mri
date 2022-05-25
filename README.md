@@ -32,3 +32,8 @@ Citation of paper goes here
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | DICOMIFIER  | https://github.com/lamyj/dicomifier  | University of Strasbourg | Conversion Bruker to DCM and NIFTI format (incl. Diffusion information) | Python
 
+## Model Fitting
+| Name  | URL | Models | Features | Dependencies |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sMRINet  | https://github.com/fragrussu/qMRINet  | qMRI models | model fitting using fully-connected deep neural networks | NumPy/Nibabel/SciPy/PyTorch
+
