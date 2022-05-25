@@ -18,20 +18,20 @@ Citation of paper goes here
 | URL  | Species | Diffusion Scheme | Other features | Institution |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | http://www.drcmr.dk/map-datasets  | Mouse brain  | micro-FA, Multi-shell, multi-resolution, Tractography, Axon diameter, Exchange rate, Axon relaxation | Validation: 3D synchrotron imaging of axons, cell bodies, vacoules and vessels, in vivo tracers | Danish Research Center for MR
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| https://www.nature.com/articles/sdata201672 | Rat brain, rat spinal cord, human brain | DKI |  | Aarhus University |
+| https://doi.org/10.1016/j.dib.2016.08.020 | Rat, pig and human spinal cords | DTI | Ultra-high resolution (MR microscopy) | U of Florida |
+| https://doi.org/10.1016/j.dib.2016.06.061 | Rat brain | Multi-shell, high b-value | Mild chronic stress model | Aarhus University |
+| https://github.com/sepehrband/AxonDiameter | Mouse brain | Multi-shell  | Augmented with EM data and manually segmented axon diameter | U of Queensland |
+| http://cmrm.med.jhmi.edu/ (M. Aggarwal et al. 2009) | Adult and postnatal developing mouse brains |  | Atlas | Johns Hopkins |
+| https://doi.org/10.1016/j.neuroscience.2005.07.014  | Mouse brain |  | Atlas | Several |
+| http://doc.pmod.com/pneuro/pneuro.html?mousebrainatlasma-benveniste-mirrione4996.html | Cynomolgus, rhesus monkey and pig  |  | Atlas  | PMOD |
+| https://osf.io/yp4qg/ (Cohen-Adad et al. 2019)  | White matter axons |  | Microscopy data (non-MR) | Several |
+| https://doi.org/10.1016/j.dib.2015.05.019 |Cynomolgus macaque corpus callosum  |  | Microscopy data (non-MR) | Several |
+| http://www.duhs.duke.edu/mouseconnectome | Mouse Connectome in Waxholm Space | HARDI @ 43 um, 120 angle, b-value @ 4000 s/mm2 | Segmented Atlas compared to retroviral tracers WHS Labels | Duke CIVM |
+| https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2Fstudyhome.php%3Fstudyid%3D754 | Rat Connectome | MGRE @ 25 um HARDI @ 50 um 60 Angles Single specimen Average (n=6)b=3000 s/mm2 |Segmented Atlas includes downloadable application for display | Duke CIVM |
+| http://www.civm.duhs.duke.edu/rhesusatlas |Rhesus | MGRE@75um DTI@150 um 12 angles; b value =1500 s/mm2  | Average N=10 241 labels  | Duke CIVM |
+| https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2F | Mouse NODDI @ 50 um | 8 shells B value 1000-8000 s/mm2 384 angles |With comparative histology | Duke CIVM |
+| Histology: https://www.nitrc.org/projects/smatlas/ Atlas: https://www.nitrc.org/projects/validate29/ | Squirrel monkey atlas + histology | Multi-shell HARDI acquisition | Atlas + histology | Vanderbilt |
 
 
 ## Data acquisition
