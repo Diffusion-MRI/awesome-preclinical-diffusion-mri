@@ -17,8 +17,12 @@ Citation of paper goes here
 
 | URL  | Species | Diffusion Scheme | Other features | Institution |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| https://doi.org/10.14264/de9aa47  | Mouse brain  | DTI | Model of Concussion | University of Queensland
-| http://cmrm.med.jhmi.edu/ (M. Aggarwal et al. 2009)  | Content Cell  |
+| http://www.drcmr.dk/map-datasets  | Mouse brain  | micro-FA, Multi-shell, multi-resolution, Tractography, Axon diameter, Exchange rate, Axon relaxation | Validation: 3D synchrotron imaging of axons, cell bodies, vacoules and vessels, in vivo tracers | Danish Research Center for MR
+
+
+
+
+
 
 ## Data acquisition
 
@@ -26,6 +30,7 @@ Citation of paper goes here
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Pulse Sequences | https://osf.io/ngu4a/   | University of Wisconsin  Madison | Custom diffusion sequences (for Bruker Consoles) | ParaVision version
 | REMMI | https://remmi-toolbox.github.io/  | Vanderbilt University | Sequences for small animal quantitative MRI including diffusion | Paravision or VNMRJversion
+| double PFG directions | [https://remmi-toolbox.github.io/](https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/)  | Aarhus University | Output pairs of diffusion directions for dPFG | Matlab
 
 ## Pre-processing
 
@@ -41,5 +46,6 @@ Citation of paper goes here
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sMRINet  | https://github.com/fragrussu/qMRINet  | qMRI models | model fitting using fully-connected deep neural networks | NumPy/Nibabel/SciPy/PyTorch
+| qMRINet  | https://github.com/fragrussu/qMRINet  | qMRI models | model fitting using fully-connected deep neural networks | NumPy/Nibabel/SciPy/PyTorch
+| Fast Kurtosis  | https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/  | Kurtosis metrics | kurtosis metrics from reduced diffusion kurtosis imaging data sets | Matlab
 
