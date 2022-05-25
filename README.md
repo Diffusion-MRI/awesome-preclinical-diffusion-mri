@@ -25,12 +25,17 @@ Citation of paper goes here
 | Name  | URL | Institution | Features | Dependencies |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Pulse Sequences | https://osf.io/ngu4a/   | University of Wisconsin  Madison | Custom diffusion sequences (for Bruker Consoles) | ParaVision version
+| REMMI | https://remmi-toolbox.github.io/  | Vanderbilt University | Sequences for small animal quantitative MRI including diffusion | Paravision or VNMRJversion
 
 ## Pre-processing
 
 | Name  | URL | Institution | Features | Dependencies |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | DICOMIFIER  | https://github.com/lamyj/dicomifier  | University of Strasbourg | Conversion Bruker to DCM and NIFTI format (incl. Diffusion information) | Python
+| atlasBREX  | https://github.com/jlohmeier/atlasBREX  | Charité Berlin | Non-human brain extraction | FSL, AFNI, ANTs, ABSORB
+| PreQual  | https://github.com/MASILab/PreQual  | Vanderbilt | All pre-processing steps | Python
+| SCT  | https://spinalcordtoolbox.com/   | Polytechnique Montreal | Spinal cord MRI | Python
+| MChepato  | https://github.com/fragrussu/MChepato | Vall d’Hebron Institute of Oncology | Tools for mouse liver dMRI-histology imaging used in (Grussu et al. 2022) | Python, FSL, QuPath, MRItools, DiPy, NiftyReg, and others
 
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
