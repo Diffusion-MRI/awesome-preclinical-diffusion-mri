@@ -58,6 +58,9 @@ Part 2 — Ex vivo imaging
 | SCT  | https://spinalcordtoolbox.com/   | Polytechnique Montreal | Spinal cord MRI | Python
 | MChepato  | https://github.com/fragrussu/MChepato | Vall d’Hebron Institute of Oncology | Tools for mouse liver dMRI-histology imaging used in (Grussu et al. 2022) | Python, FSL, QuPath, MRItools, DiPy, NiftyReg, and others
 | Tractoflow  | https://doi.org/10.1016/j.neuroimage.2020.116889 | Sherbrooked University | End to end tractography (not small animal specific) | 
+| dwigradcheck  | https://mrtrix.readthedocs.io/en/latest/reference/commands/dwigradcheck.html | MRtrix3 software | Check the orientation of the diffusion gradient table; Jeurissen et al., MIA, 2014 | MRtrix3 |
+| dwi2mask  | https://mrtrix.readthedocs.io/en/dev/reference/commands/dwi2mask.html | MRtrix3 software | Generate a binary mask from DWI data using a variety of algorithms | MRtrix3 |
+| scil_validate_and_correct_bvec  | https://github.com/scilus/scilpy/blob/master/scripts/scil_validate_and_correct_bvecs.py | SCILPY (Shrebrooke) | Detect sign flips and/or axes swaps in the gradients table from a fiber coherence index (Schilling et al, MRI, 2019) | scilpy |
 
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
