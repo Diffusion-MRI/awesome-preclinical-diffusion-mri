@@ -40,6 +40,8 @@ Part 2 — Ex vivo imaging
 | http://www.civm.duhs.duke.edu/rhesusatlas |Rhesus | MGRE@75um DTI@150 um 12 angles; b value =1500 s/mm2  | Average N=10 241 labels  | Duke CIVM |
 | https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2F | Mouse NODDI @ 50 um | 8 shells B value 1000-8000 s/mm2 384 angles |With comparative histology | Duke CIVM |
 | Histology: https://www.nitrc.org/projects/smatlas/ Atlas: https://www.nitrc.org/projects/validate29/ | Squirrel monkey atlas + histology | Multi-shell HARDI acquisition | Atlas + histology | Vanderbilt |
+| https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2F https://www.sciencedirect.com/science/article/pii/S1053811920303621  | Mouse brain | 25um and 67um isotropic at b=4000 s/mm2 | diffusion + QSM data | Duke University |
+| https://www.nitrc.org/projects/rat_dmri_atlas https://www.sciencedirect.com/science/article/pii/S1053811921007436 | Rat Brain | 61 DWIs, b=3000s/mm2 | Three sets of data: a single specimen at 25 um and 50um; an average specimen at 50um; WHS3.0 data in affine alignment to Paxinos Watson(7th edition) orientation | Duke University |
 
 
 ## Data acquisition
