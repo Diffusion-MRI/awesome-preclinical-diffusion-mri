@@ -70,6 +70,7 @@ Part 2 — Ex vivo imaging
 | dwidenoise  | https://mrtrix.readthedocs.io/en/latest/reference/commands/dwidenoise.html | MRtrix3 software | dMRI noise level estimation and denoising using Marchenko-Pastur PCA (Veraart et al., NI, 2016) | MRtrix3 |
 | Koay's Inversion Method for Rician Bias correction  | https://github.com/jan-martin-mri/koays-inversion | National Institutes of Health | This GitHub repository contains MATLAB code for correcting noisy MRI data for Rician bias according to Koay's inversion method | Koay's inversion method to correct data for Rician bias requires a corresponding noise map |
 | DESIGNER (Diffusion parameter EStImation with Gibbs and NoisE Removal)  | (https://github.com/NYU-DiffusionMRI/DESIGNER) | NYU | mage-processing pipeline for (diffusion) MRI data that has been developed to identify and correct various specific artifacts and confounding factors for an improved accuracy, precision, and robustness in diffusion MRI analysis | Python, but requires the installation of Matlab, MRtrix, and FSL |
+| Signal Drift correction for dMRI data (Vos method)  | https://www.mathworks.com/matlabcentral/fileexchange/55008-signal-drift-correction-for-diffusion-mri-data | UCL | Function to correct for signal drift in diffusion-weighted MRI data as described in Vos et al., MRM 2016; also available in ExploreDTI (www.exploredti.com) | N/A |
 
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
