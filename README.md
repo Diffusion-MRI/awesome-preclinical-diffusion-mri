@@ -61,6 +61,8 @@ Part 2 — Ex vivo imaging
 | dwigradcheck  | https://mrtrix.readthedocs.io/en/latest/reference/commands/dwigradcheck.html | MRtrix3 software | Check the orientation of the diffusion gradient table; Jeurissen et al., MIA, 2014 | MRtrix3 |
 | dwi2mask  | https://mrtrix.readthedocs.io/en/dev/reference/commands/dwi2mask.html | MRtrix3 software | Generate a binary mask from DWI data using a variety of algorithms | MRtrix3 |
 | scil_validate_and_correct_bvec  | https://github.com/scilus/scilpy/blob/master/scripts/scil_validate_and_correct_bvecs.py | SCILPY (Shrebrooke) | Detect sign flips and/or axes swaps in the gradients table from a fiber coherence index (Schilling et al, MRI, 2019) | scilpy |
+| DESIGNER  | https://github.com/NYU-DiffusionMRI/DESIGNER | NYU | Diffusion parameter EStImation with Gibbs and NoisE Removal (“DESIGNER”) is an image-processing pipeline for (diffusion) MRI data that has been developed to identify and correct various specific artifacts and confounding factors for an improved accuracy, precision, and robustness in diffusion MRI analysis | N/A |
+| dwidenoise  | https://mrtrix.readthedocs.io/en/latest/reference/commands/dwidenoise.html | MRtrix3 software | dMRI noise level estimation and denoising using Marchenko-Pastur PCA (Veraart et al., NI, 2016) | MRtrix3 |
 
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
