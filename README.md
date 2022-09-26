@@ -18,6 +18,8 @@ Part 2 — Ex vivo imaging
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | https://doi.org/10.14264/de9aa47  | Mouse brain  | DTI | Model of Concussion | University of Queensland
 | http://cmrm.med.jhmi.edu/ (M. Aggarwal et al. 2009)  | Mouse brain  | Atlas | Johns Hopkins
+| https://mouse.brain-map.org/static/atlas  | Mouse | Allen Moues brain atlas (not diffusion MRI, but histology dataset) | full-color, high-resolution anatomic reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures | Allen Institute |
+| https://scalablebrainatlas.incf.org/macaque/MERetal14_on_F99  | Macaque | F99 macaque (not diffusion, histology tracer based dataset) | 91 cortical regions atlas, registered to F99 space | Stem cell and Brain Research Institute, Université de Lyon, University of Yale |
 
 ## Ex Vivo Datasets
 
@@ -47,6 +49,7 @@ Part 2 — Ex vivo imaging
 | Pulse Sequences | https://osf.io/ngu4a/   | University of Wisconsin  Madison | Custom diffusion sequences (for Bruker Consoles) | ParaVision version
 | REMMI | https://remmi-toolbox.github.io/  | Vanderbilt University | Sequences for small animal quantitative MRI including diffusion | Paravision or VNMRJversion
 | double PFG directions | [https://remmi-toolbox.github.io/](https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/)  | Aarhus University | Output pairs of diffusion directions for dPFG | Matlab
+| q-space sampling resources  | [Uhttps://github.com/ecaruyer/qspaceRL](https://github.com/ecaruyer/qspace) http://www.emmanuelcaruyer.com/q-space-sampling.php | Univ Rennes, Inria, CNRS, IRISA | Tools for sampling and reconstruction in q-space diffusion MRI | N/A |
 
 ## Pre-processing
 
@@ -69,4 +72,5 @@ Part 2 — Ex vivo imaging
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | qMRINet  | https://github.com/fragrussu/qMRINet  | qMRI models | model fitting using fully-connected deep neural networks | NumPy/Nibabel/SciPy/PyTorch
 | Fast Kurtosis  | https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/  | Kurtosis metrics | kurtosis metrics from reduced diffusion kurtosis imaging data sets | Matlab
+| WMTI-Watson_DL  | [URL](https://github.com/Mic-map/WMTI-Watson_DL) | White Matter Standard Model | Estimated directly from DKI parameters, based on DL | python |
 
