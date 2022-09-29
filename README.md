@@ -50,7 +50,7 @@ Part 2 — Ex vivo imaging
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Pulse Sequences | https://osf.io/ngu4a/   | University of Wisconsin  Madison | Custom diffusion sequences (for Bruker Consoles) | ParaVision version
 | REMMI | https://remmi-toolbox.github.io/  | Vanderbilt University | Sequences for small animal quantitative MRI including diffusion | Paravision or VNMRJversion
-| double PFG directions | [https://remmi-toolbox.github.io/](https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/)  | Aarhus University | Output pairs of diffusion directions for dPFG | Matlab
+| double PFG directions | [https://cfin.au.dk/cfin-labs-research-groups/neurophysics/software](https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/)  | Aarhus University | Output pairs of diffusion directions for dPFG | Matlab
 | q-space sampling resources  | [Uhttps://github.com/ecaruyer/qspaceRL](https://github.com/ecaruyer/qspace) http://www.emmanuelcaruyer.com/q-space-sampling.php | Univ Rennes, Inria, CNRS, IRISA | Tools for sampling and reconstruction in q-space diffusion MRI | N/A |
 
 ## Pre-processing
