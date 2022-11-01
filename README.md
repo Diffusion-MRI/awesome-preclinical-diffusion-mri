@@ -42,7 +42,7 @@ Part 2 — Ex vivo imaging
 | Histology: https://www.nitrc.org/projects/smatlas/ Atlas: https://www.nitrc.org/projects/validate29/ | Squirrel monkey atlas + histology | Multi-shell HARDI acquisition | Atlas + histology | Vanderbilt |
 | https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2F https://www.sciencedirect.com/science/article/pii/S1053811920303621  | Mouse brain | 25um and 67um isotropic at b=4000 s/mm2 | diffusion + QSM data | Duke University |
 | https://www.nitrc.org/projects/rat_dmri_atlas https://www.sciencedirect.com/science/article/pii/S1053811921007436 | Rat Brain | 61 DWIs, b=3000s/mm2 | Three sets of data: a single specimen at 25 um and 50um; an average specimen at 50um; WHS3.0 data in affine alignment to Paxinos Watson(7th edition) orientation | Duke University |
-| https://open.win.ox.ac.uk/DigitalBrainBank/#/ https://elifesciences.org/articles/73153 | Human, Macaque | HARDI & Multi-shell | Human datasets for neuroanatomy and neuropathology investigations (including whole brain diffusion MRI) + nonhuman species covering multiple taxonomic ranks | Oxford University |
+| [Digital Brain Bank](https://open.win.ox.ac.uk/DigitalBrainBank/#/) Paper:https://elifesciences.org/articles/73153 | Human, Macaque | HARDI & Multi-shell | Human datasets for neuroanatomy and neuropathology investigations (including whole brain diffusion MRI) + nonhuman species covering multiple taxonomic ranks | Oxford University |
 
 
 ## Data acquisition
@@ -52,7 +52,7 @@ Part 2 — Ex vivo imaging
 | Pulse Sequences | https://osf.io/ngu4a/   | University of Wisconsin  Madison | Custom diffusion sequences (for Bruker Consoles) | ParaVision version
 | REMMI | https://remmi-toolbox.github.io/  | Vanderbilt University | Sequences for small animal quantitative MRI including diffusion | Paravision or VNMRJversion
 | double PFG directions | [https://cfin.au.dk/cfin-labs-research-groups/neurophysics/software](https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/)  | Aarhus University | Output pairs of diffusion directions for dPFG | Matlab
-| q-space sampling resources  | [Uhttps://github.com/ecaruyer/qspaceRL](https://github.com/ecaruyer/qspace) http://www.emmanuelcaruyer.com/q-space-sampling.php | Univ Rennes, Inria, CNRS, IRISA | Tools for sampling and reconstruction in q-space diffusion MRI | N/A |
+| q-space sampling resources  | [https://github.com/ecaruyer/qspace](https://github.com/ecaruyer/qspace) http://www.emmanuelcaruyer.com/q-space-sampling.php | Univ Rennes, Inria, CNRS, IRISA | Tools for sampling and reconstruction in q-space diffusion MRI | N/A |
 
 ## Pre-processing
 
@@ -63,11 +63,10 @@ Part 2 — Ex vivo imaging
 | PreQual  | https://github.com/MASILab/PreQual  | Vanderbilt | All pre-processing steps | Python
 | SCT  | https://spinalcordtoolbox.com/   | Polytechnique Montreal | Spinal cord MRI | Python
 | MChepato  | https://github.com/fragrussu/MChepato | Vall d’Hebron Institute of Oncology | Tools for mouse liver dMRI-histology imaging used in (Grussu et al. 2022) | Python, FSL, QuPath, MRItools, DiPy, NiftyReg, and others
-| Tractoflow  | https://doi.org/10.1016/j.neuroimage.2020.116889 | Sherbrooked University | End to end tractography (not small animal specific) | 
+| Tractoflow  | https://doi.org/10.1016/j.neuroimage.2020.116889 | Sherbrooke University | End to end tractography (not small animal specific) | 
 | dwigradcheck  | https://mrtrix.readthedocs.io/en/latest/reference/commands/dwigradcheck.html | MRtrix3 software | Check the orientation of the diffusion gradient table; Jeurissen et al., MIA, 2014 | MRtrix3 |
 | dwi2mask  | https://mrtrix.readthedocs.io/en/dev/reference/commands/dwi2mask.html | MRtrix3 software | Generate a binary mask from DWI data using a variety of algorithms | MRtrix3 |
 | scil_validate_and_correct_bvec  | https://github.com/scilus/scilpy/blob/master/scripts/scil_validate_and_correct_bvecs.py | SCILPY (Shrebrooke) | Detect sign flips and/or axes swaps in the gradients table from a fiber coherence index (Schilling et al, MRI, 2019) | scilpy |
-| DESIGNER  | https://github.com/NYU-DiffusionMRI/DESIGNER | NYU | Diffusion parameter EStImation with Gibbs and NoisE Removal (“DESIGNER”) is an image-processing pipeline for (diffusion) MRI data that has been developed to identify and correct various specific artifacts and confounding factors for an improved accuracy, precision, and robustness in diffusion MRI analysis | N/A |
 | dwidenoise  | https://mrtrix.readthedocs.io/en/latest/reference/commands/dwidenoise.html | MRtrix3 software | dMRI noise level estimation and denoising using Marchenko-Pastur PCA (Veraart et al., NI, 2016) | MRtrix3 |
 | Koay's Inversion Method for Rician Bias correction  | https://github.com/jan-martin-mri/koays-inversion | National Institutes of Health | This GitHub repository contains MATLAB code for correcting noisy MRI data for Rician bias according to Koay's inversion method | Koay's inversion method to correct data for Rician bias requires a corresponding noise map |
 | DESIGNER (Diffusion parameter EStImation with Gibbs and NoisE Removal)  | (https://github.com/NYU-DiffusionMRI/DESIGNER) | NYU | mage-processing pipeline for (diffusion) MRI data that has been developed to identify and correct various specific artifacts and confounding factors for an improved accuracy, precision, and robustness in diffusion MRI analysis | Python, but requires the installation of Matlab, MRtrix, and FSL |
@@ -78,5 +77,5 @@ Part 2 — Ex vivo imaging
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | qMRINet  | https://github.com/fragrussu/qMRINet  | qMRI models | model fitting using fully-connected deep neural networks | NumPy/Nibabel/SciPy/PyTorch
 | Fast Kurtosis  | https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/  | Kurtosis metrics | kurtosis metrics from reduced diffusion kurtosis imaging data sets | Matlab
-| WMTI-Watson_DL  | [URL](https://github.com/Mic-map/WMTI-Watson_DL) | White Matter Standard Model | Estimated directly from DKI parameters, based on DL | python |
+| WMTI-Watson  | https://github.com/Mic-map/WMTI-Watson_DL | White Matter Standard Model | Estimated directly from DKI parameters, based on DL | python |
 
