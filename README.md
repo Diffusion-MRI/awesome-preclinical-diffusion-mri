@@ -42,6 +42,7 @@ Part 2 — Ex vivo imaging
 | Histology: https://www.nitrc.org/projects/smatlas/ Atlas: https://www.nitrc.org/projects/validate29/ | Squirrel monkey atlas + histology | Multi-shell HARDI acquisition | Atlas + histology | Vanderbilt |
 | https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2F https://www.sciencedirect.com/science/article/pii/S1053811920303621  | Mouse brain | 25um and 67um isotropic at b=4000 s/mm2 | diffusion + QSM data | Duke University |
 | https://www.nitrc.org/projects/rat_dmri_atlas https://www.sciencedirect.com/science/article/pii/S1053811921007436 | Rat Brain | 61 DWIs, b=3000s/mm2 | Three sets of data: a single specimen at 25 um and 50um; an average specimen at 50um; WHS3.0 data in affine alignment to Paxinos Watson(7th edition) orientation | Duke University |
+| https://open.win.ox.ac.uk/DigitalBrainBank/#/ https://elifesciences.org/articles/73153 | Human, Macaque | HARDI & Multi-shell | Human datasets for neuroanatomy and neuropathology investigations (including whole brain diffusion MRI) + nonhuman species covering multiple taxonomic ranks | Oxford University |
 
 
 ## Data acquisition
