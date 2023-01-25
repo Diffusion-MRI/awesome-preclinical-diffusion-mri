@@ -18,8 +18,9 @@ Part 2 — Ex vivo imaging
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | https://doi.org/10.14264/de9aa47  | Mouse brain  | DTI | Model of Concussion | University of Queensland
 | http://cmrm.med.jhmi.edu/ (M. Aggarwal et al. 2009)  | Mouse brain  | Atlas | Johns Hopkins
-| https://mouse.brain-map.org/static/atlas  | Mouse | Allen Moues brain atlas (not diffusion MRI, but histology dataset) | full-color, high-resolution anatomic reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures | Allen Institute |
+| https://mouse.brain-map.org/static/atlas  | Mouse | Allen Mouse brain atlas (not diffusion MRI, but histology dataset) | full-color, high-resolution anatomic reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures | Allen Institute |
 | https://scalablebrainatlas.incf.org/macaque/MERetal14_on_F99  | Macaque | F99 macaque (not diffusion, histology tracer based dataset) | 91 cortical regions atlas, registered to F99 space | Stem cell and Brain Research Institute, Université de Lyon, University of Yale |
+| https://openneuro.org/datasets/ds004441 (see https://doi.org/10.1016/j.neuroimage.2020.117498 & http://doi.org/10.1002/mrm.29495) | Rat brain | Multi-shell | Model of sporadic Alzheimer's disease, longitudinal datasets | EPFL |
 
 ## Ex Vivo Datasets
 
