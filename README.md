@@ -26,6 +26,9 @@ Part 2 — Ex vivo imaging
 
 | URL  | Species | Diffusion Scheme | Other features | Institution |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
+| https://open.win.ox.ac.uk/DigitalBrainBank/#/  | Human | Several (from 300um-1.3mm) | Digital Brain Bank, Human, NonHuman Primate, Histology, https://elifesciences.org/articles/73153 | Many |
+| https://open.win.ox.ac.uk/DigitalBrainBank/#/  | Macaque | Several (from 300um-1.3mm) | Digital Brain Bank, Human, NonHuman Primate, Histology,  https://elifesciences.org/articles/73153 | Many |
+| (https://open.win.ox.ac.uk/DigitalBrainBank/#/)  | Macaque (BigMac) | 3 shells, b=4,7,10 ms/um2, 128-1000 directions | In vivo and Ex Vivo, MRI and microscopy | FMRIB, Oxford |
 | http://www.drcmr.dk/map-datasets  | Mouse brain  | micro-FA, Multi-shell, multi-resolution, Tractography, Axon diameter, Exchange rate, Axon relaxation | Validation: 3D synchrotron imaging of axons, cell bodies, vacoules and vessels, in vivo tracers | Danish Research Center for MR
 | https://www.nature.com/articles/sdata201672 | Rat brain, rat spinal cord, human brain | DKI |  | Aarhus University |
 | https://doi.org/10.1016/j.dib.2016.08.020 | Rat, pig and human spinal cords | DTI | Ultra-high resolution (MR microscopy) | U of Florida |
