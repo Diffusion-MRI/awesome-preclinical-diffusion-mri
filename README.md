@@ -57,6 +57,7 @@ Part 2 — Ex vivo imaging
 | REMMI | https://remmi-toolbox.github.io/  | Vanderbilt University | Sequences for small animal quantitative MRI including diffusion | Paravision or VNMRJversion
 | double PFG directions | [https://cfin.au.dk/cfin-labs-research-groups/neurophysics/software](https://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/software/)  | Aarhus University | Output pairs of diffusion directions for dPFG | Matlab
 | q-space sampling resources  | [https://github.com/ecaruyer/qspace](https://github.com/ecaruyer/qspace) http://www.emmanuelcaruyer.com/q-space-sampling.php | Univ Rennes, Inria, CNRS, IRISA | Tools for sampling and reconstruction in q-space diffusion MRI | N/A |
+| Gradient direction optimization  | [QMRITools github](https://github.com/mfroeling/QMRITools) [QMRITools-website](https://www.qmritools.com/tool/gradient) | University Medical Center Utrecht | Tool for generating gradient directions | Mathematica (Licence) or Mathematica Player (Free) |
 
 ## Pre-processing
 
