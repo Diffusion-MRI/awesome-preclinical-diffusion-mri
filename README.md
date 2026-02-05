@@ -11,6 +11,8 @@ Part 1 — In vivo small-animal imaging
 (2) Recommendations and guidelines from the ISMRM Diffusion Study Group for preclinical diffusion MRI: 
 Part 2 — Ex vivo imaging
 
+** if you would like your datasets or software in this list, please open an "issue", and describe which table it should be in, and the contents of the row. 
+
 
 ## Small Animal Datasets
 
