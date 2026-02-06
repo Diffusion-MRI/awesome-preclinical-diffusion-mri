@@ -23,6 +23,7 @@ Part 2 — Ex vivo imaging
 | https://mouse.brain-map.org/static/atlas  | Mouse | Allen Mouse brain atlas (not diffusion MRI, but histology dataset) | full-color, high-resolution anatomic reference atlas accompanied by a systematic, hierarchically organized taxonomy of mouse brain structures | Allen Institute |
 | https://scalablebrainatlas.incf.org/macaque/MERetal14_on_F99  | Macaque | F99 macaque (not diffusion, histology tracer based dataset) | 91 cortical regions atlas, registered to F99 space | Stem cell and Brain Research Institute, Université de Lyon, University of Yale |
 | https://openneuro.org/datasets/ds004441 (see https://doi.org/10.1016/j.neuroimage.2020.117498 & http://doi.org/10.1002/mrm.29495) | Rat brain | Multi-shell | Model of sporadic Alzheimer's disease, longitudinal datasets | EPFL |
+| [https://doi.org/10.14264/de9aa47](https://doi.org/10.25493/C63A-FEY)  | Rat brain  | Histology | Microscopy of rat brain stained with thionine (cytoarchitecture) and Woelche's myelin staining | University of Oslo
 
 ## Ex Vivo Datasets
 
@@ -49,7 +50,7 @@ Part 2 — Ex vivo imaging
 | https://civmvoxport.vm.duke.edu/voxbase/login.php?return_url=%2Fvoxbase%2F https://www.sciencedirect.com/science/article/pii/S1053811920303621  | Mouse brain | 25um and 67um isotropic at b=4000 s/mm2 | diffusion + QSM data | Duke University |
 | https://www.nitrc.org/projects/rat_dmri_atlas https://www.sciencedirect.com/science/article/pii/S1053811921007436 | Rat Brain | 61 DWIs, b=3000s/mm2 | Three sets of data: a single specimen at 25 um and 50um; an average specimen at 50um; WHS3.0 data in affine alignment to Paxinos Watson(7th edition) orientation | Duke University |
 | [Digital Brain Bank](https://open.win.ox.ac.uk/DigitalBrainBank/#/) Paper:https://elifesciences.org/articles/73153 | Human, Macaque | HARDI & Multi-shell | Human datasets for neuroanatomy and neuropathology investigations (including whole brain diffusion MRI) + nonhuman species covering multiple taxonomic ranks | Oxford University |
-
+| https://open.win.ox.ac.uk/DigitalBrainBank/#/](https://www.nitrc.org/projects/whs-sd-atlas  | Rat | DTI (78um) | The Waxholm Space (WHS) atlas of the Sprague Dawley rat brain (Papp et al., 2014, 2015), 222 structures  | Duke Center for In Vivo Microscopy |
 
 ## Data acquisition
 
