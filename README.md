@@ -24,6 +24,7 @@ Part 2 — Ex vivo imaging
 | https://scalablebrainatlas.incf.org/macaque/MERetal14_on_F99  | Macaque | F99 macaque (not diffusion, histology tracer based dataset) | 91 cortical regions atlas, registered to F99 space | Stem cell and Brain Research Institute, Université de Lyon, University of Yale |
 | https://openneuro.org/datasets/ds004441 (see https://doi.org/10.1016/j.neuroimage.2020.117498 & http://doi.org/10.1002/mrm.29495) | Rat brain | Multi-shell | Model of sporadic Alzheimer's disease, longitudinal datasets | EPFL |
 | [https://doi.org/10.14264/de9aa47](https://doi.org/10.25493/C63A-FEY)  | Rat brain  | Histology | Microscopy of rat brain stained with thionine (cytoarchitecture) and Woelche's myelin staining | University of Oslo
+| [https://doi.org/10.14264/de9aa47](https://doi.gin.g-node.org/10.12751/g-node.okz5nn/)  | Mice (cortical stroke)  | b=670, 30 directions, DTI | Longitudinal (T2/DTI) of WT mice with cortical stroke | Research Center Juelich
 
 ## Ex Vivo Datasets
 
@@ -79,6 +80,8 @@ Part 2 — Ex vivo imaging
 | Koay's Inversion Method for Rician Bias correction  | https://github.com/jan-martin-mri/koays-inversion | National Institutes of Health | This GitHub repository contains MATLAB code for correcting noisy MRI data for Rician bias according to Koay's inversion method | Koay's inversion method to correct data for Rician bias requires a corresponding noise map |
 | DESIGNER (Diffusion parameter EStImation with Gibbs and NoisE Removal)  | (https://github.com/NYU-DiffusionMRI/DESIGNER) | NYU | mage-processing pipeline for (diffusion) MRI data that has been developed to identify and correct various specific artifacts and confounding factors for an improved accuracy, precision, and robustness in diffusion MRI analysis | Python, but requires the installation of Matlab, MRtrix, and FSL |
 | Signal Drift correction for dMRI data (Vos method)  | https://www.mathworks.com/matlabcentral/fileexchange/55008-signal-drift-correction-for-diffusion-mri-data | UCL | Function to correct for signal drift in diffusion-weighted MRI data as described in Vos et al., MRM 2016; also available in ExploreDTI (www.exploredti.com) | N/A |
+| Ex vivo rodent pipeline for DTI/DKI/NODDI  | [https://github.com/lamyj/dicomifier](https://zenodo.org/records/8129321)  | University of Oxford | Ex vivo pipeline for ex vivo rodent data (focus on DTI/DKI/NODDI) | FSL
+
 
 ## Model Fitting
 | Name  | URL | Models | Features | Dependencies |
